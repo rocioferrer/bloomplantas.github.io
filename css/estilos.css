@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Arapey:ital@0;1&family=Forum&family=Judson:ital,wght@0,400;0,700;1,400&family=Marcellus&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Mulish:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600&family=Nanum+Gothic:wght@400;700;800&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400;1,500;1,700&family=Tajawal:wght@400;500;700;800;900&family=Tenor+Sans&display=swap');
+/*para importar la tipografía "Montserrat" de GoogleFonts */
+
+.logo{
+    height: 85px;
+}
+/*para darle un alto al logo*/
+
+.font-family{
+    font-family:'Montserrat', sans-serif;
+}
+.font-size{
+    font-size: 17px;
+    font-weight: 600;
+}
+/*utilice estas clases que ofrece bootstrap para darle estilo propio a los botones del nav*/
+
+.form-control{
+    width: 180px;
+    height: 40px;
+}
+/*tamaño del buscador*/
+
+.detalle-titulo{
+    color: forestgreen;
+}
+
+.icono{
+    margin-left: 170px;
+}
+
+.tips{
+    height: 400px;
+}
