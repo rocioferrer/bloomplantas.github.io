@@ -1,19 +1,28 @@
 
 @import "../node_modules/bootstrap/scss/bootstrap";
-@import "../sass/variables";
+@import "../sass/_variables";
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 
-.form-control{
-  border: $border;
+$h1: map-get($headings, h1);
+$combinada: map-merge($headings, $colores);
+
+
+h2{
+  @extend .nav-item;
+  color: black;
 }
 
-.h1{
-  font-family: $font-family;
+@mixin parrafos {
+  color: $secondary-color;
+  font-weight: 400;
+}
+
+p{
+  @include parrafos(2em)
 }
 
 .nav-item{
   font-family: $font-family;
-
 }
 
 .galeria{
@@ -22,7 +31,10 @@
     margin-top: 75px;
   }
 }
-
 .icono{
   margin-left: 30px;
+}
+
+.nav-item{
+  font-family:"Montserrat", sans-serif;
 }
