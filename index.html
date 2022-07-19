@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en-es">
 <head>
@@ -9,137 +10,132 @@
     <title>Página principal de Bloom Plantas</title>
     <link rel="stylesheet" href="./css/estilos.css">
     <link rel="stylesheet" href="./css/bootstrap.css">
-
 </head>
 
 <body>
+  <main>
+      <!--Inicio del contenido de la página principal Home-->
     <header>
-    <!--Usamos <header> para añadir contenido semántico-->
-         <nav class="navbar navbar-expand-lg" style="background-color: #f8f9fa;">
-            <div class="container-fluid mt-md-4 mb-md-3">
-              <a href="index.html"><img class="logo ms-5 me-3" src="./imagenes/Asset 4.png" alt="logo"></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-               <div class="collapse navbar-collapse mt-md-5 ms-3" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item font-family font-size mx-md-1">
-                    <a class="nav-link active" aria-current="page" href="plantas.html">PLANTAS</a>
-                  </li>
-                  <li class="nav-item font-family font-size mx-md-1">
-                    <a class="nav-link" href="tips.html">TIPS</a>
-                  </li>
-                  <li class="nav-item font-family font-size mx-md-1">
-                    <a class="nav-link" href="blog.html">BLOG</a>
-                  </li>
-                  <li class="nav-item font-family font-size mx-md-1">
-                    <a class="nav-link" href="nosotros.html">NOSOTROS</a>
-                  </li>
-                  <li class="nav-item font-family font-size mx-md-1">
-                    <a class="nav-link" href="contacto.html">CONTACTO</a>
-                  </li>
-                </ul>
-                <form class="d-flex mx-5" role="search">
-                  <input class="form-control me-2 px-3 font-family border-1 rounded-5" type="search" placeholder="Search" aria-label="Search">
-                </form>
+      <!--Usamos <header> para añadir contenido semántico-->
+      <!--Inicio del Nav-->
+           <nav class="navbar navbar-expand-lg" style="background-color: #f8f9fa;">
+              <div class="container-fluid mt-md-4 mb-md-3">
+                <a href="index.html"><img class="logo ms-5 me-3" src="./imagenes/Asset 4.png" alt="Logo de Bloom"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                 <div class="collapse navbar-collapse mt-md-5 ms-3" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item font-family font-size mx-md-1">
+                      <a class="nav-link active" aria-current="page" href="plantas.html">PLANTAS</a>
+                    </li>
+                    <li class="nav-item font-family font-size mx-md-1">
+                      <a class="nav-link" href="tips.html">TIPS</a>
+                    </li>
+                    <li class="nav-item font-family font-size mx-md-1">
+                      <a class="nav-link" href="blog.html">BLOG</a>
+                    </li>
+                    <li class="nav-item font-family font-size mx-md-1">
+                      <a class="nav-link" href="nosotros.html">NOSOTROS</a>
+                    </li>
+                    <li class="nav-item font-family font-size mx-md-1">
+                      <a class="nav-link" href="contacto.html">CONTACTO</a>
+                    </li>
+                  </ul>
+                  <form class="d-flex mx-5" role="search">
+                    <input class="form-control me-2 px-3 font-family border-1 rounded-5" type="search" placeholder="Search" aria-label="Search">
+                  </form>
+                </div>
+              </div>
+          </nav>    
+      </header>
+      <!--Fin del Nav-->
+    <!--El navegador fue hecho con Bootstrap. Cambie los "nav-item dropdown" que traía por dos más de los normales "nav-item" y les di clases de margénes-->
+    <!--Pasamos al contenido principal del Home. Usamos <section> para añadir contenido semántico.-->
+    <!--Primera sección-->
+      <section>
+          <div class="container-md">
+            <div class="row align-items-md-center">
+              <div class="col-md-6">
+                <h1 class="titulo-home font-family fs-1 fw-semibold">¡Plants make people<em class="detalle-titulo" style="color: forestgreen;"> happy</em>!</h1>
+                <p class="lead font-family fs-4"">Bloom está aquí para ayudarte a fortalecer tu relación con las plantas brindándote los mejores consejos. ¡Hacemos que las plantas sean fáciles!</p>
+                <a href="plantas.html"><button type="button" class="btn btn-secondary font-family rounded-pill">Conoce más aquí</button></a>
+              </div>
+              <div class="col-md-6 mb-4">
+                <img class="img-fluid w-auto rounded-pill mb-2" src="./imagenes/Plantaaaaaaaaa.png" alt="Planta de interior, imágen principal del home">
+              </div>  
+            </div>
+          </div>
+      </section>
+      <!--Fin primera sección-->
+    <!--Continuamos hacía la siguiente y segunda sección del Home-->
+      <!--Segunda sección-->
+      <section>
+        <div class="container-md">
+          <div class="row">
+            <div class="col-md-4 g-md-5">
+              <img class="img-fluid rounded-pill" src="./imagenes/foto 1 plantas de interior.jpg" alt="Mujer sosteniniendo una planta de interior">
+              <a class="nav-link font-family text-center" href="plantas.html"><h4 class="mt-3 fw-semibold">Plantas de interior</h4></a>
+              <p class="lead text-center">Estas plantas de interior son tus mejores aliadas ¡Además de que cuidarán tu salud y tu casa!</p>
+              <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="icono bi bi-arrow-down-short" viewBox="0 0 16 16" style="margin-left:170px;">
+                <path fill-rule="evenodd" d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4z"/>
+              </svg>
+            </div>
+            <div class="col-md-4 g-md-5">
+              <img class="img-fluid rounded-pill" src="./imagenes/foto 2plantas de interior.jpg" alt="Mano sosteniendo una planta Potus">
+              <a class="nav-link font-family text-center" href="plantas.html"><h4 class="mt-3 fw-semibold">Plantas de fácil cuidado</h4></a>
+              <p class="lead text-center">Quieres tener plantas pero eres principiante en la materia o poco constante en sus cuidados ¡Entonces estas plantas son para ti!</p>
+              <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="icono bi bi-arrow-down-short" viewBox="0 0 16 16" style="margin-left:170px;">
+                <path fill-rule="evenodd" d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4z"/>
+              </svg>
+            </div>
+            <div class="col-md-4 g-md-5">
+              <img class="img-fluid rounded-pill" src="./imagenes/foto 3 plantas de interior.jpg" alt="Silueta de persona sosteniendo una planta scindapsus pitus">
+              <a class="nav-link font-family text-center" href="plantas.html"><h4 class="mt-3 fw-semibold">Plantas de fácil exterior</h4></a>
+              <p class="lead text-center">Disfrutar de un jardín bello es todo un placer para los sentidos. ¡Te contamos cuáles son las especies todoterreno!</p>  
+              <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="icono bi bi-arrow-down-short" viewBox="0 0 16 16" style="margin-left:170px;">
+                <path fill-rule="evenodd" d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4z"/>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Fin de la segunda sección-->
+    <!--Continuamos hacía la siguiente y tercera sección del Home-->
+    <!--Tercera sección-->
+    <section>
+      <div class="container-md pt-5">
+        <h3 class="text-center font-family mt-5 mb-4 fs-2 fw-semibold">¡Consejos y trucos para que el cuidado de tus plantas sea mucho más fácil!</h3>
+      </div>
+      <div class="container-md">
+        <div class="row row-cols-1 row-cols-md-2 g-2">
+          <div class="col">
+            <div class="card me-2 border-0">
+              <img src="./imagenes/nota 1 copy.jpg" class="card-img-top" alt="Grupo de variedad de cactus">
+              <div class="card-body" style="background-color: #f8f9fa;">
+                <a class="nav-link p-0" href="tips.html"><h5 class="card-title lead">Cuidados</h5></a>
+                <a class="nav-link p-0" href="tips.html"><h4 class="card-title">Siete plantas de interior fáciles de cultivar en cualquier espacio</h4></a>
+                <p class="card-text lead fs-5">¿Estás interesado en comenzar con las plantas de interior pero no estás seguro de por dónde empezar? Conocé estas plantas fáciles de cultivar en cualquier espacio.</p>
               </div>
             </div>
-        </nav>    
-    </header>
-    <!--El navegador fue hecho con Bootstrap. Cambie los "nav-item dropdown" que traía por dos más de los normales y les di clases de margénes-->
-
-    <!--Pasamos al contenido principal del home. Usamos <section> para añadir contenido semántico.-->
-    <section>
-        <div class="container-md">
-          <div class="row align-items-md-center">
-            <div class="col-md-6">
-              <h1 class="titulo-home font-family fs-1 fw-semibold">¡Plants make people<em class="detalle-titulo" style="color: forestgreen;"> happy</em>!</h1>
-              <p class="lead font-family fs-4"">Bloom está aquí para ayudarte a fortalecer tu relación con las plantas brindándote los mejores consejos. ¡Hacemos que las plantas sean fáciles!</p>
-              <a href="plantas.html"><button type="button" class="btn btn-secondary font-family rounded-pill">Conoce más aquí</button></a>
-            </div>
-            <div class="col-md-6">
-              <img class="img-fluid w-auto rounded-pill mb-2" src="./imagenes/Plantaaaaaaaaa.png" alt="imagen-planta">
-            </div>  
           </div>
-        </div>
-    </section>
-<br>
-<br>
-    <section>
-      <div class="container-md">
-        <div class="row">
-          <div class="col-md-4 g-md-5">
-            <img class="img-fluid rounded-pill" src="./imagenes/foto 1 plantas de interior.jpg" alt="imagen-planta-de-interior">
-            <a class="nav-link font-family text-center" href="plantas.html"><h4 class="mt-3 fw-semibold">Plantas de interior</h4></a>
-            <p class="lead text-center">Estas plantas de interior son tus mejores aliadas ¡Además de que cuidarán tu salud y tu casa!</p>
-            <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="icono bi bi-arrow-down-short" viewBox="0 0 16 16" style="margin-left:170px;">
-              <path fill-rule="evenodd" d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4z"/>
-            </svg>
-          </div>
-          <div class="col-md-4 g-md-5">
-            <img class="img-fluid rounded-pill" src="./imagenes/foto 2plantas de interior.jpg" alt="imagen-planta-de-interior">
-            <a class="nav-link font-family text-center" href="plantas.html"><h4 class="mt-3 fw-semibold">Plantas de fácil cuidado</h4></a>
-            <p class="lead text-center">Quieres tener plantas pero eres principiante en la materia o poco constante en sus cuidados ¡Entonces estas plantas son para ti!</p>
-            <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="icono bi bi-arrow-down-short" viewBox="0 0 16 16" style="margin-left:170px;">
-              <path fill-rule="evenodd" d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4z"/>
-            </svg>
-          </div>
-          <div class="col-md-4 g-md-5">
-            <img class="img-fluid rounded-pill" src="./imagenes/foto 3 plantas de interior.jpg" alt="imagen-planta-de-exterior">
-            <a class="nav-link font-family text-center" href="plantas.html"><h4 class="mt-3 fw-semibold">Plantas de fácil exterior</h4></a>
-            <p class="lead text-center">Disfrutar de un jardín bello es todo un placer para los sentidos. ¡Te contamos cuáles son las especies todoterreno!</p>  
-            <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="icono bi bi-arrow-down-short" viewBox="0 0 16 16" style="margin-left:170px;">
-              <path fill-rule="evenodd" d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4z"/>
-            </svg>
-          </div>
-        </div>
-      </div>
-    </section>
-
-  <br>
-  <br>
-  <br>
-  <br>
-
-  <section>
-    <div class="container-md">
-      <h3 class="text-center font-family mt-5 mb-5 fs-2 fw-semibold">¡Consejos y trucos para que el cuidado de tus plantas sea mucho más fácil!</h3>
-    </div>
-
-    <div class="container-md">
-      <div class="row row-cols-1 row-cols-md-2 g-2">
-        <div class="col">
-          <div class="card me-2 border-0">
-            <img src="./imagenes/nota 1 copy.jpg" class="card-img-top" alt="imagen-grupo-de-plantas">
-            <div class="card-body" style="background-color: #f8f9fa;">
-              <a class="nav-link p-0" href="tips.html"><h5 class="card-title lead">Cuidados</h5></a>
-              <a class="nav-link p-0" href="tips.html"><h4 class="card-title">Siete plantas de interior fáciles de cultivar en cualquier espacio</h4></a>
-              <p class="card-text lead fs-5">¿Estás interesado en comenzar con las plantas de interior pero no estás seguro de por dónde empezar? Conocé estas plantas fáciles de cultivar en cualquier espacio.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card ms-2 border-0">
-            <img src="./imagenes/nota 2.jpg" class="card-img-top" alt="imagen-grupo-de-plantas">
-            <div class="card-body" style="background-color: #f8f9fa;">
-              <a class="nav-link p-0" href="tips.html"><h5 class="card-title lead">Cuidados</h5></a>
-              <a class="nav-link p-0" href="tips.html"><h4 class="card-title">La forma correcta de trasplantar tus plantas</h4></a>
-              <p class="card-text lead fs-5">Para promover el crecimiento continuo y la salud de las raíces, es importante saber cómo y cuándo trasplantar sus plantas. Una planta de interior saludable necesitará ser trasplantada al menos una vez en su vida.</p>
+          <div class="col">
+            <div class="card ms-2 border-0 mb-5">
+              <img src="./imagenes/nota 2.jpg" class="card-img-top" alt="Grupo de variedad de plantas de interior">
+              <div class="card-body" style="background-color: #f8f9fa;">
+                <a class="nav-link p-0" href="tips.html"><h5 class="card-title lead">Cuidados</h5></a>
+                <a class="nav-link p-0" href="tips.html"><h4 class="card-title">La forma correcta de trasplantar tus plantas</h4></a>
+                <p class="card-text lead fs-5">Para promover el crecimiento continuo y la salud de las raíces, es importante saber cómo y cuándo trasplantar sus plantas. Una planta de interior saludable necesitará ser trasplantada al menos una vez en su vida.</p>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
-
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  
-  
-    <div class="container-fluid" style="background-color: #f8f9fa;">
+    </section>
+    <!--Fin de la tercera sección-->
+  </main>
+  <!--Por último continuamos hacía el footer-->
+    <div class="container-fluid mt-5" style="background-color: #f8f9fa;">
       <footer class="py-5 ms-5">
         <div class="row">
           <div class="col-md-2">
@@ -157,7 +153,6 @@
              <a class="nav-link font-family" href="contacto.html"><li class="nav-item">Preguntas frecuentes</li></a>
               <a class="nav-link font-family" href="contacto.html"><li class="nav-item">Contacto</li></a>
               <a class="nav-link font-family" href="nosotros.html"><li class="nav-item">Servicios</li></a>
-             
             </ul>
           </div>
           <div class="col-md-5">
@@ -207,7 +202,7 @@
         </div>
       </footer>
     </div>
-  
-
+      <!--Fin del footer-->
+  <!--Fin del contenido-->
 </body>
 </html>
